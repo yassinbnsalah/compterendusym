@@ -1,6 +1,3 @@
-home:
-    path: /
-    controller: App\Controller\AccueilController::index
-partner:
-    path: /partner
-    controller: App\Controller\PartnerController::index
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index

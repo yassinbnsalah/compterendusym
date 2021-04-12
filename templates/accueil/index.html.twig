@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Home {% endblock %}
+
+
+{% block body %}
+<h1> <center> page d'accueil de la magazine  </center> </h1> 
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <center> <img src="https://www.enfant.com/assets/posts/18000/18423-comment-jouer-avec-bebe-en-encourageant-son-autonomie.jpg"  alt="..." style="width :200px ; height : 200px"> </cennter>
+    </div>
+    <div class="carousel-item">
+      <center><img src="https://previews.123rf.com/images/oksun70/oksun701202/oksun70120200198/12584147-b%C3%A9b%C3%A9-joue-avec-des-jouets-%C3%A9ducatifs-sur-fond-blanc.jpg"alt="..." style="width :200px ; height : 200px"></center>
+    </div>
+    <div class="carousel-item">
+      <center><img src="https://www.nannysecours.com/wp-content/uploads/2013/05/jouer-seul.jpg"  alt="..." style="width :600px ; height : 300px"></center>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h4><center>Ce site présente l’univers riche et méconnu (en France, en tout cas) des jeux de société, souvent appelé jeux de plateau. Les jeux présentés sur ce site sont souvent inconnus et ne peuvent, la plupart du temps, être trouvés que dans des boutiques spécialisées souvent situées dans les grandes villes. Ce site tentera donc de vous présenter ces jeux méconnus en espérant vous donner envie de les essayer pour découvrir que le jeu n’est pas une activité pour enfants.</h4> 
+{% endblock %}
